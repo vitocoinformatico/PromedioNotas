@@ -1,5 +1,3 @@
-// package promedionotas
-
 import javax.swing.JOptionPane;
 import java.util.Scanner;
 
@@ -24,7 +22,7 @@ public class Principal
 		notaB = entrada.nextDouble();
 		System.out.print("Por favor digite la tercera nota: ");
 		notaC = entrada.nextDouble();
-		
+
 		suma = (notaA+notaB+notaC);
 		prom = suma / 3;
 		JOptionPane.showMessageDialog(null, "El promedio del estudiante es: "+prom, "Programar & Aprender", 
